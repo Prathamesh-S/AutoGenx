@@ -1,0 +1,90 @@
+/* Add a black background color to the top navigation */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(Images/abstract.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.topnav {
+    background-color:black;
+    overflow: hidden;
+    color: white;
+    /* position: fixed; */
+    
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color: green;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    
+    color: red;
+  }
+  .topnav a.visited{
+      color: gold;
+  }
+
+  .filter{
+      display: flex;
+      justify-content: flex-start;
+
+  }
+  .label{
+      align-items: flex-start;
+      margin: 15px;
+      color: gold;
+      /* background-attachment: fixed; */
+      /* osition: fixped; */
+    
+  }
+  .select{
+      margin: 18px;
+      align-items: flex-start;
+      margin-left: -5px;
+      border-radius: 1px solid black;
+      box-sizing: border-box;
+      /* position: fixed; */
+  }
+
+ 
+
+  #app{
+    display: flex;
+    /* border: 5px solid black; */
+    height: 85vh;
+    min-height: 85vh;
+    
+    flex-wrap: wrap;
+    
+    
+  }
+  
+  #app .car {
+    width: 300px;
+    height: 300px;
+    margin: 25px;
+    overflow-x: none;
+    color: white;
+    max-width: 300px;
+    max-height: 300px;
+
+    
+  }
+
+  

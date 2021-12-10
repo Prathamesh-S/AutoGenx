@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FILTERS</title>
+    <link rel="stylesheet" href="filters2.css">
+
+    
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="#news">News</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+      </div>
+    
+      <div class="filters">
+        <form class="filter" >
+            <label for="cars" class="label" >Budget</label>
+            <select name="cars" id="budget" class="select" onchange="getBudget()">
+              <option value="None">none</option>
+              <option value="20000">Below 20K</option>
+              <option value="40000">Below 40K</option>
+              <option value="60000">Below 60k</option>
+
+            </select>
+            
+            <label for="cars" class="label" >Brand</label>
+            <select name="cars" id="brand" class="select" onchange="getBrand()">
+              <option value="None">none</option>
+              <option value="ford">FORD</option>
+              <option value="hyundai">HYUNDAI</option>
+              <option value="chevrolet">CHEVROLET</option>
+              <option value="audi">AUDI</option>
+              <option value="bmw">BMW</option>
+            </select>
+             
+            <label for="cars" class="label">Year</label>
+            <select name="cars" id="year" class="select" onchange="getYear()">
+              <option value="NONE">none</option>
+              <option value="2015">15</option>
+              <option value="2016">16</option>
+              <option value="2017">17</option>
+            </select>
+          </form>
+      </div>
+
+      <div id="app"></div>
+    
+</body>
+</script>
+<script src="testing.js"></script>
+</html>

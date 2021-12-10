@@ -1,0 +1,23 @@
+*{margin: 0;padding: 0;}
+
+.showroomheader {
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    color: white;
+}
+body {
+background-image: url(Images/Batman.jpg);
+height: 100%;
+width: 100%;
+max-width: 100%;
+max-height: 100%;
+display: grid;
+
+}
+
+.leftarrow {
+    position: absolute;
+    bottom: 1%;
+    left: 2%;
+}

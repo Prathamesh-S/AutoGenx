@@ -1,2 +1,2 @@
-# AutoGenx
-An Automobile suggesting website.
+# AutoGenX
+A Website for getting you  the right car
